@@ -1,3 +1,5 @@
+/* Début du projet Netflix css */
+
 * {
     box-sizing: border-box;
 }
@@ -321,3 +323,185 @@ hr {
     color: white;
     text-decoration: none;
 }
+
+
+/* style du septième containair */
+
+.principal6-main {
+    font-family: "Netflix sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(119, 115, 115);
+    padding-top: 50px;
+}
+
+.principal6-main h4 {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0 170px;
+}
+
+.principal6-main h5 {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0 170px;
+}
+
+.foot-main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0 120px;
+    margin-right: 280px;
+}
+
+.foot-main .foot1 {
+    padding: 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+/* Deuxième page formulaire */
+
+.container2 {
+    height: auto;
+    background: linear-gradient(rgba(5, 5, 5, 0.521), rgba(0, 0, 0, 0.541)), no-repeat url("image/background.jpg");
+}
+
+.nav-bar2 {
+    padding: 30px 48px;
+    display: flex;
+}
+
+.nav-bar2 img {
+    width: 150px;
+    height: auto;
+}
+
+.form-main {
+    padding: 0 450px;
+    font-family: "Netflix sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.form-main .formule {
+    padding: 20px 70px;
+    padding-bottom: 100px;
+    border: 1px solid;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 430px;
+    height: auto;
+}
+
+.lab .label1 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+.formule .input1 {
+    width: 300px;
+    height: 50px;
+    border-radius: 4px 4px;
+    border: none;
+    line-height: 30px;
+    font-size: 18px;
+    color: gray;
+    padding-left: 20px;
+    outline: none;
+    background-color: rgb(48, 47, 47);
+}
+
+::placeholder {
+    font-size: 18px;
+    font-weight: 200;
+    color: gray;
+}
+
+.formule .input2 {
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 4px 4px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgb(231, 3, 3);
+}
+
+.formule .bien {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(163, 158, 158);
+}
+
+.formule .bien2 {
+    padding: 50px 0;
+}
+
+.bien .input3 {
+    font-size: 100px;
+    color: rgb(145, 143, 143);
+}
+
+.bien2 .span1 {
+    color: rgb(163, 158, 158);
+    font-size: 13px;
+}
+
+.bien2 h3 {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(145, 143, 143);
+}
+
+.bien2 .span2 {
+    color: white;
+}
+
+.bien2 p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(145, 143, 143);
+}
+
+.bien2 .span3 {
+    color: rgb(32, 62, 233);
+}
+
+
+/* style du deuxième contaire de la page formulaire */
+
+.foot-formule {
+    padding: 10px 0;
+    margin-top: 90px;
+    font-family: "Netflix sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(145, 143, 143);
+    border: 1px solid;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+.foot-formule h4 {
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 215px;
+}
+
+.foot-forme .foot-form {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.foot-forme {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0 100px;
+    margin-right: 150px;
+}
+
+
+/* Fin du projet Netflix css */
