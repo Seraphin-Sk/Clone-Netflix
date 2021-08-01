@@ -321,3 +321,37 @@ hr {
     color: white;
     text-decoration: none;
 }
+
+
+/* style du septième containair */
+
+.principal6-main {
+    font-family: "Netflix sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(119, 115, 115);
+    padding-top: 50px;
+}
+
+.principal6-main h4 {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0 170px;
+}
+
+.principal6-main h5 {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 170px;
+}
+
+.foot-main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+
+.foot-main .foot1 {
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 13px;
+}
